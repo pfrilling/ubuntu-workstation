@@ -1,0 +1,8 @@
+# ubuntu-workstation
+Ansible playbook to setup Ubuntu with required applications for development
+
+Install ansible.
+`sudo apt-get install ansible`
+
+Then run 
+`ansible-playbook --ask-become -i inventory.yml playbooks/default.yml`
