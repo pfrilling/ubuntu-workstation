@@ -1,0 +1,4 @@
+---
+- name: Install or update Lando (latest) with Docker CE
+  apt:
+    deb: https://files.devwithlando.io/lando-stable.deb

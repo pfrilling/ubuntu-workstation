@@ -4,4 +4,5 @@
 
   roles:
     - ../roles/docker
+    - ../roles/lando
 
