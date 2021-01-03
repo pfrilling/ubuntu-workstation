@@ -1,0 +1,6 @@
+---
+- name: Install Zoom
+  snap:
+    name: zoom-client
+    state: present
+  become: yes

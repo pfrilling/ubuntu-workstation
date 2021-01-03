@@ -6,3 +6,8 @@
     - ../roles/lando
     - ../roles/phpstorm
     - ../roles/timetrap
+    - ../roles/zoom
+    - ../roles/slack
+    - ../roles/1password
+    - ../roles/simplenote
+    - ../roles/planner

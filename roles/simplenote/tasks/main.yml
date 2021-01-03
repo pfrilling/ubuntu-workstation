@@ -1,0 +1,6 @@
+---
+- name: Install Simplenote
+  snap:
+    name: simplenote
+    state: present
+  become: yes

@@ -4,3 +4,4 @@
     classic: yes
     name: phpstorm
     state: present
+  become: yes

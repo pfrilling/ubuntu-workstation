@@ -1,0 +1,7 @@
+---
+- name: Install 1Password
+  snap:
+    name: 1password
+    state: present
+    channel: edge
+  become: yes
