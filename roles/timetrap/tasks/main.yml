@@ -1,0 +1,14 @@
+---
+- name: Install required system packages
+  apt: name={{ item }} state=latest update_cache=yes
+  loop: ['build-essential', 'ruby', 'ruby-dev', 'sqlite3', 'libsqlite3-dev']
+  become: yes
+
+- name: Install sqlite3 for Ruby
+  command: gem install sqlite3-ruby
+  become: yes
+
+- name: Installl timetrap
+  command: gem install timetrap
+  become: yes
+
