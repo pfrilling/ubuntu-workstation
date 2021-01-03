@@ -1,0 +1,6 @@
+---
+- name: Install PHPStorm
+  snap:
+    classic: yes
+    name: phpstorm
+    state: present
